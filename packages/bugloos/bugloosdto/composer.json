@@ -1,0 +1,16 @@
+{
+    "name": "bugloos/bugloosdto",
+    "description": "get response from  external API in  json or xml format and creat eloquent model object",
+    "authors": [
+        {
+            "name": "mohammad akbari",
+            "email": "mohammad.akbari.em@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "bugloos\\bugloosdto" : "src/"
+        }
+    },
+    "require": {}
+}

@@ -16,10 +16,8 @@ class BugloosDto
     public function __construct($data , $Class)
     {
         $this->modelObj = new $Class();
-        //determin data type json or xml
         $this->setData($data);
 
-//        dd($this->data);
     }
 
     public function getObj()
@@ -35,7 +33,6 @@ class BugloosDto
         {
             $this->modelObj->__set($key , $this->getValueFromResponse($value));
         }
-//        dd($dto->__get('title'));
 
         return $this ;
     }

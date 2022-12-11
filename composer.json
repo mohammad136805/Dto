@@ -25,7 +25,9 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
-            "bugloos\\bugloosdto" : "packages/bugloos/bugloosdto/src"
+            "bugloos\\bugloosdto\\" : "packages/bugloos/bugloosdto/src"
+
+
         }
     },
     "autoload-dev": {

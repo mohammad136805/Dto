@@ -166,6 +166,8 @@ return [
          * Package Service Providers...
          */
 
+        bugloos\bugloosdto\BugloosDtoServiceProvider::class,
+
         /*
          * Application Service Providers...
          */

@@ -13,9 +13,9 @@ class BugloosDto
     public $typeXML = false ;
     public $typeJSON = false ;
 
-    public function __construct($data , $childClass)
+    public function __construct($data , $Class)
     {
-        $this->modelObj = new $childClass();
+        $this->modelObj = new $Class();
         //determin data type json or xml
         $this->setData($data);
 

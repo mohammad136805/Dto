@@ -22,8 +22,6 @@ class BugloosDtoServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-//        dd(__DIR__.'\web.php');
         include __DIR__ . '/routes/web.php';
-//        $this->loadRoutesFrom(__DIR__.'/web.php');
     }
 }

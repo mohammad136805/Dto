@@ -12,10 +12,7 @@ class FetchDataController extends Controller
     public function getConfig()
     {
         $url = 'http://localhost/beautiplus/api/public/api/get-config';
-        $url = 'https://reqbin.com/echo/get/xml';
-        $url = 'https://www.w3schools.com/xml/tempconvert.asmx';
-        $response = Http::withoutVerifying()->
-        post($url);
+        $response = Http::get($url);
 
 
         $dto = new BugloosDto( $response ,User::class);
